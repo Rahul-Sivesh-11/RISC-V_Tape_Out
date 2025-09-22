@@ -18,3 +18,5 @@ make config-gcc
 git submodule update --init --recursive
 make
 sudo apt install yosys</pre>
+### TOOL CHECK:
+<pre>yosys</pre>
