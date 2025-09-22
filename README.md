@@ -18,10 +18,10 @@ make config-gcc
 git submodule update --init --recursive
 make
 sudo apt install yosys</pre>
-### TOOL CHECK:
+## TOOL CHECK:
 <pre>yosys</pre>
 ![Tools](https://github.com/Rahul-Sivesh-11/Week_0_RISC-V_Tape_Out/blob/main/Images/Screenshot%20from%202025-09-19%2021-51-36.png)
-###  Iverilog
+##  Iverilog
 Iverilog comes bundled with the OSS-CAD Suite, but the problem is, it comes with the latest version 13 which isn't regarded as a stable version in Iverilog's documentation Thus, we have to manually revert back to a stable version. This is done by deleting all iverilog files that came bundled with OSS-CAD Suite 
 ### Installation:
 <pre>sudo apt-get update
@@ -39,6 +39,17 @@ sudo apt install gtkwave</pre>
 ![gtk](https://github.com/Rahul-Sivesh-11/Week_0_RISC-V_Tape_Out/blob/main/Images/Screenshot%20from%202025-09-19%2022-42-49.png)
 
 ![Wave](https://github.com/Rahul-Sivesh-11/Week_0_RISC-V_Tape_Out/blob/main/Images/Screenshot%20from%202025-09-19%2022-55-38.png)
+## Tool Summary
+|Tool|Installed version|
+|----|-----------------|
+|Yosys|0.9|
+|Iverilog|11.0|
+|GTKWave|3.3.104|
+
+## About
+Week 0 of the RISC-V Reference SoC Tapeout Program.
+
+For further guidance, refer to [VLSI System Design Labs.](https://www.vlsisystemdesign.com/soc-labs/)
 
 
 
