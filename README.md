@@ -36,6 +36,9 @@ GTKWave is a waveform analyzer for viewing .vcd simulation results.
 Recommended:
 <pre>sudo apt update
 sudo apt install gtkwave</pre>
+![gtk](https://github.com/Rahul-Sivesh-11/Week_0_RISC-V_Tape_Out/blob/main/Images/Screenshot%20from%202025-09-19%2022-42-49.png)
+
+![Wave]
 
 
 
