@@ -20,3 +20,12 @@ make
 sudo apt install yosys</pre>
 ### TOOL CHECK:
 <pre>yosys</pre>
+![Tools](https://github.com/Rahul-Sivesh-11/Week_0_RISC-V_Tape_Out/blob/main/Images/Screenshot%20from%202025-09-19%2021-51-36.png)
+###  Iverilog
+Iverilog comes bundled with the OSS-CAD Suite, but the problem is, it comes with the latest version 13 which isn't regarded as a stable version in Iverilog's documentation Thus, we have to manually revert back to a stable version. This is done by deleting all iverilog files that came bundled with OSS-CAD Suite 
+### INSTALLATION:
+<pre>sudo apt-get update
+sudo apt-get install iverilog</pre>
+### TOOL CHECK:
+<pre>iverilog -v</pre>
+
