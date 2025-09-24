@@ -8,4 +8,11 @@
 - On Day 1, we will be using the open-source simulator Icarus Verilog (iverilog).
 - A stimulator provides changes in the input values to test how the circuit responds.
 - The output of the stimulator is typically a VCD (Value Change Dump) file, which records signal transitions during simulation.
+![Stimulation flow](https://github.com/Rahul-Sivesh-11/RISC-V_Tape_Out/blob/main/Week_1/Images/Screenshot%202025-09-24%20111612.png)
+### Design
+A design is the collection of Verilog codes that implement the intended functionality to satisfy specific requirements.
+### Test Bench
+- A test bench is created to apply stimulus to the design and verify its functionality.
+- It does not contain primary inputs or outputs.
+- Only the design module has primary inputs and outputs.
 
