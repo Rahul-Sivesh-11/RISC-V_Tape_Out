@@ -15,4 +15,25 @@ A design is the collection of Verilog codes that implement the intended function
 - A test bench is created to apply stimulus to the design and verify its functionality.
 - It does not contain primary inputs or outputs.
 - Only the design module has primary inputs and outputs.
+![Test Bench](https://github.com/Rahul-Sivesh-11/RISC-V_Tape_Out/blob/main/Week_1/Images/Screenshot%202025-09-24%20113002.png)
+### GTKWave
+- It is used for viewing the waveform.
+
+---
+### SKY130RTL D1SK2 L1 Lab1 introduction to lab
+For cloning the git https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
+
+```bash
+sudo -i
+sudo apt-get install git
+cd /home
+# for the vbox users
+cd vboxuser 
+cd vsd
+cd VLSI
+git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
+cd sky130RTLDesignAndSynthesisWorkshop
+cd verilog_files/
+ls
+```
 
